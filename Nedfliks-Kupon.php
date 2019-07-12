@@ -3,6 +3,7 @@ class Kupon {
  public $omurboyu = '0';
 public function degerAta($deger) {
         $this->deger=$deger;
+        $this->omurboyu=$omurboyu;
 }
 public function olustur() {
         if($this->deger == '10')
